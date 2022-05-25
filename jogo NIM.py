@@ -114,21 +114,3 @@ def menu():
         print('invalido')
         menu()
 menu()
-'''
-else:
-    while tipoDePartida != 1 or tipoDePartida != 2:
-        print('Você digitou um numero inválido!!!')
-        tipoDePartida = int(input('Digite somente 1 para partida unica \n 2 - para jogar um campeonato:'))
-        
-        if tipoDePartida == 2:
-            print()
-            print('Voce escolheu um campeonato!')
-            print()
-            campeonato()
-        elif tipoDePartida == 1:
-            print('Você escolheu a partida única: \nEscolha: ')
-            partida()
-        elif tipoDePartida == 0:
-            exit()
-'''
-        
